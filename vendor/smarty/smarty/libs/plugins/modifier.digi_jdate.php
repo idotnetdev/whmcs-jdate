@@ -6,8 +6,8 @@
 		if (!function_exists( 'jdate' )) {
 			include_once( $folder_level . 'modules/addons/digi_date/includes/jdf.php' );
 		}
-        
-        $digi_formate = $format; //'Y/m/d';
+
+
 
         if ($whmcs_date !== '-') {
             if (strpos( $whmcs_date, ':' ) !== false) {
